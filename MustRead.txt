@@ -1,0 +1,2 @@
+Some of variables can be taken as a Input by replacing the values by Replacing it by Input().
+You nned to change some data into the main file like path and file name

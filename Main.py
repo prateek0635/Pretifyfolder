@@ -22,10 +22,10 @@ def Check(path,filename,ext,temp):
 
 if __name__ == '__main__':
     lis=[]
-    path="C:\\Users\PRATEEK GUPTA\PycharmProjects\\untitled2"
-    filename="Prateek_Book.txt"
+    path="C:\\Users\PRATEEK GUPTA\PycharmProjects\\untitled2" #Change this path #Take it as a Input if you want
+    filename="Prateek_Book.txt"  #Change this FileName #Take it as a Input if you want
     temp = open(filename, 'r').read().split('\n')
-    ext="jpg"
+    ext="jpg" #Take it as a Input if you want
 
     # print(temp)
     Check(path,filename,ext,temp)

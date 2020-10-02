@@ -12,7 +12,7 @@ def Check(path,filename,ext,temp):
     for j in list1:
         try:
             fname,fext=j.split(".")
-            #print(fname,fext)
+            print(fname,fext)
             if fext==ext:
                 os.rename(j,f"{var}.{fext}")
                 var+=1
